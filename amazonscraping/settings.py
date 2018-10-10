@@ -14,6 +14,10 @@ BOT_NAME = 'amazonscraping'
 SPIDER_MODULES = ['amazonscraping.spiders']
 NEWSPIDER_MODULE = 'amazonscraping.spiders'
 
+ITEM_PIPELINES = {
+    'amazonscraping.pipelines.PriceDiscountPipeline': 300,
+    'amazonscraping.pipelines.ScreenshotPipeline': 800,
+}
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'amazonscraping (+http://www.yourdomain.com)'
