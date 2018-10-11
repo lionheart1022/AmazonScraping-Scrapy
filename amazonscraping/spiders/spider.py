@@ -12,7 +12,6 @@ class AmazonSpider(scrapy.Spider):
     name = "amazon_spider"
     allowed_domains = ['amazon.com']
     start_url = 'https://www.amazon.com'
-    # start_url = 'https://www.amazon.com/Vancouver-Historical-Society-Newsletter/dp/B000E5N2II/ref=lp_16416041_1_12?s=magazines&ie=UTF8&qid=1539271349&sr=1-12'
 
     HEADER = {"user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) "
                             "Chrome/67.0.3396.99 Safari/537.36"}
@@ -39,10 +38,6 @@ class AmazonSpider(scrapy.Spider):
     def start_requests(self):
         yield scrapy.Request(self.start_url,
                              callback=self.parse_links, headers=self.HEADER)
-
-    # def start_requests(self):
-    #     yield scrapy.Request(self.start_url,
-    #                          callback=self.parse_product, headers=self.HEADER)
 
     def parse_links(self, response):
         search_alias_list = response.xpath('//select[@id="searchDropdownBox"]/option/@value').extract()
