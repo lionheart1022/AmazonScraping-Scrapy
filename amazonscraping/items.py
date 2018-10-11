@@ -16,3 +16,4 @@ class AmazonscrapingItem(scrapy.Item):
     price = scrapy.Field()
     price_discount = scrapy.Field()
     price_discount_percent = scrapy.Field()
+    screenshot_filename = scrapy.Field()
