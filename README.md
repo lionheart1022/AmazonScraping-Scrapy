@@ -1,5 +1,5 @@
 # AmazonScraping
-This spider is to crawl title, brand, price, price with discount for amazon.com.
+This spider crawl title, brand, price, price with discount of products on amazon.com.
 Made pipeline to calculate price discount in % and add that to a returned item as separate field. 
 Made scraper to be able to receive command line argument - make screenshot of the page if argument is supplied and save screenshot in .png
 
