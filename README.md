@@ -5,7 +5,7 @@ Made scraper to be able to receive command line argument - make screenshot of th
 
 
 ### Installation
-$ pip install -r requirements.txt
+****``$ pip install -r requirements.txt****``
 
 
 ##### Installation of Splash 
@@ -21,7 +21,7 @@ $ pip install -r requirements.txt
 ### Run
 - if arguments is supplied, spider take screenshot of webpage.
 
-    ```scrapy crawl amazon_spider -a screenshot=True```
+    ****```scrapy crawl amazon_spider -a screenshot=True```****
 - Else
 
-    ```scrapy crawl amazon_spider```
+    ****```scrapy crawl amazon_spider```****
