@@ -7,6 +7,17 @@ Made scraper to be able to receive command line argument - make screenshot of th
 ### Installation
 $ pip install -r requirements.txt
 
+
+##### Installation of Splash 
+1. Install Docker.
+2. Pull the image:
+
+    ****``$ sudo docker pull scrapinghub/splash``****
+3. Start the container:
+    
+    ****``$ sudo docker run -p 8050:8050 -p 5023:5023 scrapinghub/splash``****
+4. Splash is now available at 0.0.0.0 at ports 8050 (http) and 5023 (telnet).
+
 ### Run
 - if arguments is supplied, spider take screenshot of webpage.
 
