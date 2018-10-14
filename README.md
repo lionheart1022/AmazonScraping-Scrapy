@@ -5,7 +5,7 @@ Made scraper to be able to receive command line argument - make screenshot of th
 
 
 ### Installation
-****``$ pip install -r requirements.txt****``
+****``$ pip install -r requirements.txt``****
 
 
 ##### Installation of Splash 
