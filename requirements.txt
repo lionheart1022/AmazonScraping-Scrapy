@@ -1,9 +1,9 @@
 CherryPy==16.0.2
 PAM==0.4.2
-Pillow==2.3.0
+pillow>=6.2.0
 PyDispatcher==2.0.5
 Scrapy==1.4.0
-Twisted==13.2.0
+twisted>=19.7.0
 argparse==1.2.1
 bcrypt==3.1.4
 cffi==1.11.5
