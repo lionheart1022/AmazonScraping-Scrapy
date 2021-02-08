@@ -7,7 +7,7 @@ twisted>=19.7.0
 argparse==1.2.1
 bcrypt==3.1.4
 cffi==1.11.5
-httplib2==0.8
+httplib2==0.19.0
 lxml==3.3.3
 oauthlib==0.6.1
 parsel==1.2.0
