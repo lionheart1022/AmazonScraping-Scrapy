@@ -1,0 +1,20 @@
+version: 2
+updates:
+- package-ecosystem: pip
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: lxml
+    versions:
+    - 4.6.2
+  - dependency-name: cffi
+    versions:
+    - 1.14.4
+  - dependency-name: scrapy
+    versions:
+    - 2.4.1
+  - dependency-name: httplib2
+    versions:
+    - 0.18.0
