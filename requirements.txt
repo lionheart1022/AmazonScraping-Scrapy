@@ -18,7 +18,7 @@ pycparser==2.18
 pymongo==3.6.1
 queuelib==1.4.2
 requests==2.2.1
-scrapy-splash==0.7.2
+scrapy-splash==0.8.0
 selenium==3.14.1
 simplejson==3.3.1
 six==1.11.0
